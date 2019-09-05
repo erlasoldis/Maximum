@@ -17,3 +17,11 @@ if num_int > 0 :
     
     #Repeat the while loop while input is a positive number
     while num_int > 0 :
+
+        #Switch out the max_input number when a greater number is input
+        if num_int > max_int :
+        max_int = num_int
+
+        num_int = int(input("Input a number: "))
+    
+    print("The maximum is", max_int)
